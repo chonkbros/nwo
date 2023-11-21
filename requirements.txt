@@ -119,6 +119,7 @@ python-nvd3==0.15.0
 python-slugify==8.0.1
 pytz==2023.3.post1
 pytzdata==2020.1
+pytest==7.4.3
 PyYAML==6.0.1
 referencing==0.30.2
 requests==2.31.0
