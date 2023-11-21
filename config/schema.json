@@ -1,0 +1,361 @@
+{
+    "type": "object",
+    "properties": {
+      "kind": {
+        "type": "string"
+      },
+      "ingestion_timestamp": {
+        "type": "string"
+      },
+      "data.approved_at_utc": {
+        "type": ["number", "null"]
+      },
+      "data.subreddit": {
+        "type": "string"
+      },
+      "data.selftext": {
+        "type": "string"
+      },
+      "data.user_reports": {
+        "type": "array"
+      },
+      "data.saved": {
+        "type": "boolean"
+      },
+      "data.mod_reason_title": {
+        "type": ["string", "null"]
+      },
+      "data.gilded": {
+        "type": "integer"
+      },
+      "data.author_cakeday":{
+        "type": "boolean"
+      },
+      "data.clicked": {
+        "type": "boolean"
+      },
+      "data.title": {
+        "type": "string"
+      },
+      "data.link_flair_richtext": {
+        "type": "array"
+      },
+      "data.subreddit_name_prefixed": {
+        "type": "string"
+      },
+      "data.hidden": {
+        "type": "boolean"
+      },
+      "data.pwls": {
+        "type": "integer"
+      },
+      "data.link_flair_css_class": {
+        "type": ["string", "null"]
+      },
+      "data.downs": {
+        "type": "integer"
+      },
+      "data.thumbnail_height": {
+        "type": ["integer", "null"]
+      },
+      "data.top_awarded_type": {
+        "type": ["string", "null"]
+      },
+      "data.hide_score": {
+        "type": "boolean"
+      },
+      "data.name": {
+        "type": "string"
+      },
+      "data.quarantine": {
+        "type": "boolean"
+      },
+      "data.link_flair_template_id":{
+        "type": ["string", "null"]
+      },
+      "data.link_flair_text_color": {
+        "type": ["string", "null"]
+      },
+      "data.upvote_ratio": {
+        "type": "number"
+      },
+      "data.author_flair_background_color": {
+        "type": ["string", "null"]
+      },
+      "data.subreddit_type": {
+        "type": "string"
+      },
+      "data.ups": {
+        "type": "integer"
+      },
+      "data.total_awards_received": {
+        "type": "integer"
+      },
+      "data.media_embed": {
+        "type": "object"
+      },
+      "data.thumbnail_width": {
+        "type": ["integer", "null"]
+      },
+      "data.author_flair_template_id": {
+        "type": ["string", "null"]
+      },
+      "data.is_original_content": {
+        "type": "boolean"
+      },
+      "data.author_fullname": {
+        "type": "string"
+      },
+      "data.secure_media": {
+        "type": ["object", "null"]
+      },
+      "data.is_reddit_media_domain": {
+        "type": "boolean"
+      },
+      "data.is_meta": {
+        "type": "boolean"
+      },
+      "data.category": {
+        "type": ["string", "null"]
+      },
+      "data.secure_media_embed": {
+        "type": "object"
+      },
+      "data.link_flair_text": {
+        "type": ["string", "null"]
+      },
+      "data.can_mod_post": {
+        "type": "boolean"
+      },
+      "data.score": {
+        "type": "integer"
+      },
+      "data.approved_by": {
+        "type": ["string", "null"]
+      },
+      "data.is_created_from_ads_ui": {
+        "type": "boolean"
+      },
+      "data.author_premium": {
+        "type": "boolean"
+      },
+      "data.thumbnail": {
+        "type": "string"
+      },
+      "data.edited": {
+        "type": ["boolean", "number"]
+      },
+      "data.author_flair_css_class": {
+        "type": ["string", "null"]
+      },
+      "data.author_flair_richtext": {
+        "type": "array"
+      },
+      "data.gildings": {
+        "type": "object"
+      },
+      "data.post_hint": {
+        "type": ["string", "null"]
+      },
+      "data.content_categories": {
+        "type": ["array", "null"]
+      },
+      "data.is_self": {
+        "type": "boolean"
+      },
+      "data.mod_note": {
+        "type": ["string", "null"]
+      },
+      "data.crosspost_parent": {
+        "type": ["string", "null"]
+      },
+      "data.crosspost_parent_list": {
+        "type": ["array", "null"]
+      },
+      "data.author": {
+        "type": "string"
+      },
+      "data.num_comments": {
+        "type": "integer"
+      },
+      "data.send_replies": {
+        "type": "boolean"
+      },
+      "data.whitelist_status": {
+        "type": "string"
+      },
+      "data.contest_mode": {
+        "type": "boolean"
+      },
+      "data.mod_reports": {
+        "type": "array"
+      },
+      "data.author_patreon_flair": {
+        "type": "boolean"
+      },
+      "data.author_flair_text_color": {
+        "type": ["string", "null"]
+      },
+      "data.permalink": {
+        "type": "string"
+      },
+      "data.parent_whitelist_status": {
+        "type": "string"
+      },
+      "data.stickied": {
+        "type": "boolean"
+      },
+      "data.url": {
+        "type": "string"
+      },
+      "data.subreddit_subscribers": {
+        "type": "integer"
+      },
+      "data.created_utc": {
+        "type": "number"
+      },
+      "data.num_crossposts": {
+        "type": "integer"
+      },
+      "data.media": {
+        "type": ["object", "null"]
+      },
+      "data.is_video": {
+        "type": "boolean"
+      },
+      "data.media_metadata": {
+        "type": ["object", "null"],
+        "additionalProperties": true
+      },
+      "data.wls": {
+        "type": "integer"
+      },
+      "data.awarders":{
+        "type": ["array", "null"],
+        "additionalProperties": true
+      }, 
+      "data.discussion_type":{
+        "type": ["string","null"]
+      }, 
+      "data.all_awardings":{
+        "type": ["array", "null"],
+        "additionalProperties": true
+      },
+      "data.link_flair_type":{
+        "type": ["string","null"]
+      }, 
+      "data.author_is_blocked":{
+        "type": "boolean"
+      }, 
+      "data.report_reasons":{
+        "type": ["string","null"]
+      }, 
+      "data.mod_reason_by":{
+        "type": ["string","null"]
+      }, 
+      "data.is_robot_indexable":{
+        "type": "boolean"
+      }, 
+      "data.num_reports":{
+        "type": ["string","null"]
+      }, 
+      "data.link_flair_background_color":{
+        "type": ["string","null"]
+      }, 
+      "data.url_overridden_by_dest":{
+        "type": ["string","null"]
+      }, 
+      "data.over_18":{
+        "type": "boolean"
+      }, 
+      "data.visited":{
+        "type": "boolean"
+      }, 
+      "data.is_crosspostable":{
+        "type": "boolean"
+      }, 
+      "data.distinguished":{
+        "type": ["string","null"]
+      }, 
+      "data.domain":{
+        "type": ["string","null"]
+      }, 
+      "data.view_count":{
+        "type": ["string","null"]
+      }, 
+      "data.banned_by":{
+        "type": ["string","null"]
+      }, 
+      "data.removal_reason":{
+        "type": ["string","null"]
+      }, 
+      "data.media_only":{
+        "type": "boolean"
+      }, 
+      "data.spoiler":{
+        "type": "boolean"
+      }, 
+      "data.banned_at_utc":{
+        "type": ["string","null"]
+      }, 
+      "data.author_flair_type":{
+        "type": ["string","null"]
+      }, 
+      "data.pinned":{
+        "type": "boolean"
+      }, 
+      "data.selftext_html":{
+        "type": ["string","null"]
+      }, 
+      "data.removed_by":{
+        "type": ["string","null"]
+      }, 
+      "data.treatment_tags":{
+        "type": ["array", "null"],
+        "additionalProperties": true
+      }, 
+      "data.no_follow":{
+        "type": "boolean"
+      }, 
+      "data.suggested_sort":{
+        "type": ["string","null"]
+      }, 
+      "data.preview":{
+        "type": ["object", "null"],
+        "additionalProperties": true
+      }, 
+      "data.removed_by_category":{
+        "type": ["string","null"]
+      }, 
+      "data.author_flair_text":{
+        "type": ["string","null"]
+      }, 
+      "data.allow_live_comments":{
+        "type": "boolean"
+      }, 
+      "data.locked":{
+        "type": "boolean"
+      }, 
+      "data.id":{
+        "type": ["string","null"]
+      }, 
+      "data.created":{
+        "type": ["number", "null"]
+      }, 
+      "data.likes":{
+        "type": ["string","null"]
+      }, 
+      "data.can_gild":{
+        "type": "boolean"
+      }, 
+      "data.subreddit_id":{
+        "type": ["string","null"]
+      }, 
+      "data.archived":{
+        "type": "boolean"
+      }
+    },
+    "required": ["kind", "ingestion_timestamp"],
+    "additionalProperties": false
+  }
+  

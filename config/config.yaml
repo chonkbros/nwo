@@ -1,0 +1,8 @@
+database:
+  host: localhost
+  user: user
+  password: pass
+  database: mydatabase
+
+global:
+  cadence: hour # Options: 'day', 'week', 'hour'
